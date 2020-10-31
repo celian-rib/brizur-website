@@ -1,0 +1,99 @@
+.showcaseContainer{
+    position: relative;
+    width: 220px;
+    height: 220px;
+}
+
+.showCaseImg{
+	object-fit: cover;
+}
+
+/* .overlay{
+    position: absolute;
+    content: '';
+    flex: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+    background-color: rgba(0,0,0,0);
+    opacity: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay h4{
+    color: white;
+    font-size: 0.5em;
+    transition: 0.8s;
+    font-family: 'Marcellus', serif;
+}
+
+.overlay:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.overlay:hover h4{
+    font-size: 1.5em;
+} */
+
+.showcaseBtn{
+    background-color: rgba(0,0,0, 0.5);
+    position: absolute;
+    content: '';
+    flex: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.showcaseBtn h1{
+    color: white;
+    font-size: 1.3em;
+}
+.showcaseBtn h3{
+    color: rgb(231, 231, 231);
+    font-size: 1.3em;
+    font-weight: 200;
+}
+.showcaseBtn a{
+    width: 70%;
+    height: 20%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+
+    margin-top: 15%;
+
+    transition: 0.5s;
+}
+.showcaseBtn a h2{
+    color: white;
+    font-weight: 300;
+}
+.showcaseBtn a:hover{
+    background-color: rgba(255,255,255,0.4);
+}
+
+
+
+@media (max-width: 900px) {
+	.showcaseContainer{
+		width: 130px;
+		height: 130px;
+    }
+}

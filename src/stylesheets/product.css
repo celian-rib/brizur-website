@@ -1,0 +1,11 @@
+.Product{
+    width: 250px;
+    height: 250px;
+    background-color: tomato;
+}
+@media (max-width: 900px) {
+	.Product{
+		width: 120px;
+		height: 120px;
+	}
+}
