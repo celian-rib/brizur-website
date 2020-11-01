@@ -5,40 +5,11 @@
 }
 
 .showCaseImg{
-	object-fit: cover;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
 }
 
-/* .overlay{
-    position: absolute;
-    content: '';
-    flex: 1;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    transition: 0.5s;
-    background-color: rgba(0,0,0,0);
-    opacity: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.overlay h4{
-    color: white;
-    font-size: 0.5em;
-    transition: 0.8s;
-    font-family: 'Marcellus', serif;
-}
-
-.overlay:hover {
-    background-color: rgba(0,0,0,0.5);
-}
-
-.overlay:hover h4{
-    font-size: 1.5em;
-} */
 
 .showcaseBtn{
     background-color: rgba(0,0,0, 0.5);
@@ -55,6 +26,7 @@
     align-items: center;
     flex-direction: column;
 }
+
 
 .showcaseBtn h1{
     color: white;
@@ -89,9 +61,30 @@
     background-color: rgba(255,255,255,0.4);
 }
 
+.smallScreenShowCaseBtn{
+	
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(119, 119, 119);
+}
+
+.smallScreenShowCaseBtn .showcaseBtn a{
+	width: 90px;
+	height: 40px;
+	margin-top: 5px;
+}
+
 
 
 @media (max-width: 900px) {
+    .showCaseImg, .showCaseBtn{
+        width: 130px;
+        height: 130px;
+    }
 	.showcaseContainer{
 		width: 130px;
 		height: 130px;

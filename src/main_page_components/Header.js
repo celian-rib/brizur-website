@@ -1,5 +1,4 @@
 import assets from '../others/asset_sources.js'
-
 import Fade from 'react-reveal/Fade';
 
 function Header(){
