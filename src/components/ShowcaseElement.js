@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 function ShowcaseElement(props) {
 	
 	return (
-		<Fade left cascade>
+		<Fade left>
 			{
 			props.last&&props.screenWidth<900?
 				<div/>
