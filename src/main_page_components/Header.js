@@ -1,3 +1,6 @@
+import '../stylesheets/DownArrow.css';
+import '../stylesheets/Header.css';
+
 import assets from '../others/asset_sources.js'
 import Fade from 'react-reveal/Fade';
 

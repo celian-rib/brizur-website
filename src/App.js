@@ -1,19 +1,17 @@
 import './App.css';
-import './stylesheets/DownArrow.css';
-import './stylesheets/Header.css'
 
-
+import { useState, useEffect } from 'react';
 
 import Header from './main_page_components/Header.js'
 import Body from './main_page_components/Body.js'
 import Footer from './main_page_components/Footer.js'
 
-import { useState, useEffect } from 'react';
-
 function App() {
+
 	const { width } = useWindowDimensions();
 	
 	const [offset, setOffset] = useState(0)
+
 	useEffect(() => {
 	  window.onscroll = () => {
 		setOffset(window.pageYOffset)
@@ -22,7 +20,6 @@ function App() {
 
 	return (
 		<div className="App">
-
 			<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet" />
 			<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet" />
 			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"></link>
@@ -30,7 +27,6 @@ function App() {
 			<Header></Header>
 			<Body scrollOffset={offset} screenWidth={width}></Body>
 			<Footer></Footer>
-			
 		</div>
 	);
 }
@@ -45,7 +41,7 @@ function getWindowDimensions() {
 	};
   }
   
-  function useWindowDimensions() {
+function useWindowDimensions() {
 	const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
   
 	useEffect(() => {
@@ -58,4 +54,4 @@ function getWindowDimensions() {
 	}, []);
   
 	return windowDimensions;
-  }
+}
