@@ -16,7 +16,8 @@
   animation: move 3s ease-out 2s infinite;
 }
 
-.chevron:before, .chevron:after {
+.chevron::before, 
+.chevron::after {
   content: ' ';
   position: absolute;
   top: 0;
@@ -25,12 +26,12 @@
   background: rgb(182, 182, 182);
 }
 
-.chevron:before {
+.chevron::before {
   left: 0;
   transform: skew(0deg, 30deg);
 }
 
-.chevron:after {
+.chevron::after {
   right: 0;
   width: 50%;
   transform: skew(0deg, -30deg);
@@ -40,14 +41,17 @@
   25% {
     opacity: 1;
   }
+
   33% {
     opacity: 1;
     transform: translateY(30px);
   }
+
   67% {
     opacity: 1;
     transform: translateY(40px);
   }
+
   100% {
     opacity: 0;
     transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
