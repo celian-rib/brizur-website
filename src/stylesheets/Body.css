@@ -16,7 +16,9 @@
   flex-direction: column;
 }
 
-.bodyInfoBar h2, .bodyInfoBar h1, .bodyInfoBar h3 {
+.bodyInfoBar h2,
+.bodyInfoBar h1,
+.bodyInfoBar h3 {
   width: 80%;
   max-width: 700px;
   z-index: 100;

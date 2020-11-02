@@ -19,8 +19,8 @@
 }
 
 .footerInfo p,
-.footerInfo p a,
-.footerInfo a {
+.footerInfo a,
+.footerInfo p a{
   text-align: center;
 }
 
