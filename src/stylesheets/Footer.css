@@ -25,10 +25,12 @@
 @media (max-width: 900px) {
 	#licenceImg {
 		display: none;
-	}
+  }
+
 	.footerInfo a {
 		font-size: 0.8em;
-	}
+  }
+
 	.footerInfo p, .footerInfo p a {
 		text-align: center;
 		font-size: 0.9em;
