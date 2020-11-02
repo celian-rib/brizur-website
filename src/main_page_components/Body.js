@@ -3,11 +3,11 @@ import Fade from 'react-reveal/Fade';
 import assets from '../others/asset_sources.js'
 import '../stylesheets/Body.css'
 
-function Body(props){
-    return(
+function Body(props) {
+    return (
         <div className='Body'>
-            <div className="info2">
-                <img style={{transform: `translateY(${props.scrollOffset * 0.2 - 100}px)`}} className="info2-image" src={assets.Plate2} alt="gateau" />
+            <div className="bodyInfoBar">
+                <img style={{ transform: `translateY(${props.scrollOffset * 0.2 - 100}px)` }} className="bodyInfoBar-image" src={assets.Plate2} alt="gateau" />
                 <Fade right cascade>
                     <h2>Qui ut desnderit sinNolor deserunt. Dolordolor incididunt voluptate laborum. Minim laboris deserunt commodo reprehenderit magna ea deserunt sunt ut aute pariatur ut laboris. Veniam ad ea esse mollit culpa qui reprehenderit ullamco do nostrud nisi officia esse culpa. Eiusmod aliqua reprehenderit labore esse tempor elit ad.</h2>
                 </Fade>
@@ -22,7 +22,7 @@ function Body(props){
                 <ShowCaseElement screenWidth={props.screenWidth} src={assets.Cooking2} last={true} />
             </div>
             {
-                props.screenWidth<900?
+                props.screenWidth < 900 ?
                     <div className="smallScreenShowCaseBtn">
                         <div className="showcaseBtn">
                             <h1>BRIZUR s'emporte</h1>
@@ -32,8 +32,8 @@ function Body(props){
                             </a>
                         </div>
                     </div>
-                :
-                    <div/>
+                    :
+                    <div />
             }
         </div>
     )

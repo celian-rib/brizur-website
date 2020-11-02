@@ -9,13 +9,13 @@ import Footer from './main_page_components/Footer.js'
 function App() {
 
 	const { width } = useWindowDimensions();
-	
+
 	const [offset, setOffset] = useState(0)
 
 	useEffect(() => {
-	  window.onscroll = () => {
-		setOffset(window.pageYOffset)
-	  }
+		window.onscroll = () => {
+			setOffset(window.pageYOffset)
+		}
 	}, [])
 
 	return (
@@ -36,22 +36,22 @@ export default App;
 function getWindowDimensions() {
 	const { innerWidth: width, innerHeight: height } = window;
 	return {
-	  width,
-	  height
+		width,
+		height
 	};
-  }
-  
+}
+
 function useWindowDimensions() {
 	const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
-  
+
 	useEffect(() => {
-	  function handleResize() {
-		setWindowDimensions(getWindowDimensions());
-	  }
-  
-	  window.addEventListener('resize', handleResize);
-	  return () => window.removeEventListener('resize', handleResize);
+		function handleResize() {
+			setWindowDimensions(getWindowDimensions());
+		}
+
+		window.addEventListener('resize', handleResize);
+		return () => window.removeEventListener('resize', handleResize);
 	}, []);
-  
+
 	return windowDimensions;
 }

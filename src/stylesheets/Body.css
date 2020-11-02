@@ -4,14 +4,11 @@
 	height: fit-content;
 }
 
-
-.info2{
+.bodyInfoBar {
 	position: relative;
-	
 	width: 100%;
 	height: fit-content;
 	min-height: 250px;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -19,7 +16,7 @@
 	flex-direction: column;
 }
 
-.info2 h2, .info2 h1, .info2 h3{
+.bodyInfoBar h2, .bodyInfoBar h1, .bodyInfoBar h3 {
 	width: 80%;
 	max-width: 700px;
 	z-index: 100;
@@ -31,42 +28,42 @@
 	text-align: center;
 }
 
-.info2 div{
+.bodyInfoBar div {
 	z-index: 100;
-	background-color: rgba(0,0,0,0.45);
+	background-color: rgba(0, 0, 0, 0.45);
 	width: 100%;
 	height: 70%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.info2 h1{
+
+.bodyInfoBar h1 {
 	font-size: 3em;
 	font-weight: 500;
 	font-family: 'Marcellus', serif;
 }
-.info2 h3{
+
+.bodyInfoBar h3 {
 	font-size: 1.5em;
 }
 
-
-.info2-image{
+.bodyInfoBar-image {
 	margin-top: 20px;
 	width: 100%;
 	height: auto;
 	position: absolute;
 }
 
-.info2::after{
+.bodyInfoBar::after {
 	content: '';
 	width: 101%;
 	height: 101%;
 	position: absolute;
-	background-color: rgba(0,0,0,0.4);
-
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
-.showCase{
+.showCase {
 	position: relative;
 	width: 100%;
 	height: 90vh;
@@ -74,22 +71,20 @@
 	align-items: center;
 	justify-content: center;
 	grid-template-columns: 220px 220px 220px;
-	
 	column-gap: 7%;
 }
 
 @media (max-width: 900px) {
-    .showCase{
+	.showCase {
 		padding-top: 20px;
 		grid-template-columns: 130px 130px;
 		column-gap: auto;
 		height: 40vh;
 	}
-	.info2{
+	.bodyInfoBar {
 		flex-direction: column;
 	}
-	.info2 h2{
+	.bodyInfoBar h2 {
 		width: 80%;
 	}
-	
 }

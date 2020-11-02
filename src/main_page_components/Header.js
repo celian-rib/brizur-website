@@ -4,8 +4,8 @@ import '../stylesheets/Header.css';
 import assets from '../others/asset_sources.js'
 import Fade from 'react-reveal/Fade';
 
-function Header(){
-    return(
+function Header() {
+    return (
         <div className="Header">
             <div className="Title">
                 <img src={assets.Plate7} alt="background" className="BackgroundImage"></img>
