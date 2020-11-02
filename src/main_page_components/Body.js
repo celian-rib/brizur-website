@@ -1,11 +1,11 @@
-import ShowCaseElement from '../components/ShowcaseElement'
-import Fade from 'react-reveal/Fade';
-import assets from '../others/asset_sources.js'
-import '../stylesheets/Body.css'
+import ShowCaseElement from "../components/ShowcaseElement";
+import Fade from "react-reveal/Fade";
+import assets from "../others/asset_sources.js";
+import "../stylesheets/Body.css";
 
 function Body(props) {
     return (
-        <div className='Body'>
+        <div className="Body">
             <div className="bodyInfoBar">
                 <img style={{ transform: `translateY(${props.scrollOffset * 0.2 - 100}px)` }} className="bodyInfoBar-image" src={assets.Plate2} alt="gateau" />
                 <Fade right cascade>
@@ -25,7 +25,7 @@ function Body(props) {
                 props.screenWidth < 900 ?
                     <div className="smallScreenShowCaseBtn">
                         <div className="showcaseBtn">
-                            <h1>BRIZUR s'emporte</h1>
+                            <h1>BRIZUR s"emporte</h1>
                             <h3>De 12H à 18H</h3>
                             <a href=" ">
                                 <h2>VOIR</h2>
@@ -36,6 +36,6 @@ function Body(props) {
                     <div />
             }
         </div>
-    )
+    );
 }
 export default Body;
