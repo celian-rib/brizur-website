@@ -1,5 +1,5 @@
-import '../stylesheets/showcaseElement.css'
-import Fade from 'react-reveal/Fade';
+import "../stylesheets/showcaseElement.css"
+import Fade from "react-reveal/Fade";
 
 
 

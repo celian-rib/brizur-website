@@ -76,7 +76,8 @@
 }
 
 @media (max-width: 900px) {
-  .showCaseImg, .showCaseBtn {
+  .showCaseImg,
+  .showCaseBtn {
     width: 130px;
     height: 130px;
   }
