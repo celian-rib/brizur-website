@@ -1,10 +1,10 @@
-import './App.css';
+import "./App.css";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
-import Header from './main_page_components/Header.js'
-import Body from './main_page_components/Body.js'
-import Footer from './main_page_components/Footer.js'
+import Header from "./main_page_components/Header.js";
+import Body from "./main_page_components/Body.js";
+import Footer from "./main_page_components/Footer.js";
 
 function App() {
 
@@ -49,8 +49,8 @@ function useWindowDimensions() {
 			setWindowDimensions(getWindowDimensions());
 		}
 
-		window.addEventListener('resize', handleResize);
-		return () => window.removeEventListener('resize', handleResize);
+		window.addEventListener("resize", handleResize);
+		return () => window.removeEventListener("resize", handleResize);
 	}, []);
 
 	return windowDimensions;
