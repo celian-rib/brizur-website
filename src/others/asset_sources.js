@@ -1,3 +1,4 @@
+/* eslint-disable */
 import _BrizureLogo from "../assets/BrizureLogo.png";
 import _Plate1 from "../assets/foodAssets/plate1.png";
 import _Plate2 from "../assets/foodAssets/plate2.png";

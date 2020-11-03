@@ -1,3 +1,4 @@
+/* eslint-disable */
 import ShowCaseElement from "../components/ShowcaseElement";
 import Fade from "react-reveal/Fade";
 import assets from "../others/asset_sources.js";

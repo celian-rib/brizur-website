@@ -1,10 +1,9 @@
-import "./App.css";
-
-import { useState, useEffect } from "react";
-
-import Header from "./main_page_components/Header.js";
-import Body from "./main_page_components/Body.js";
-import Footer from "./main_page_components/Footer.js";
+/* eslint-disable */
+import { React, useState, useEffect } from 'react';
+import './App.css';
+import Header from './main_page_components/Header';
+import Body from './main_page_components/Body';
+import Footer from './main_page_components/Footer';
 
 function getWindowDimensions() {
 	const { innerWidth: width, innerHeight: height } = window;
@@ -22,8 +21,8 @@ function useWindowDimensions() {
 			setWindowDimensions(getWindowDimensions());
 		}
 
-		window.addEventListener("resize", handleResize);
-		return () => window.removeEventListener("resize", handleResize);
+		window.addEventListener('resize', handleResize);
+		return () => window.removeEventListener('resize', handleResize);
 	}, []);
 
 	return windowDimensions;
@@ -45,11 +44,11 @@ function App() {
 		<div className="App">
 			<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet" />
 			<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet" />
-			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"></link>
+			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet" />
 
-			<Header></Header>
-			<Body scrollOffset={offset} screenWidth={width}></Body>
-			<Footer></Footer>
+			<Header />
+			<Body scrollOffset={offset} screenWidth={width} />
+			<Footer />
 		</div>
 	);
 }
