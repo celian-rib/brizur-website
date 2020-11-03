@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from 'react';
 import '../stylesheets/showcaseElement.css';
 import Fade from 'react-reveal/Fade';
