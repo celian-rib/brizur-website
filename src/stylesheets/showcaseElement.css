@@ -71,7 +71,7 @@
   overflow: hidden;
 }
 
-.smallScreenShowCaseBtn img{
+.smallScreenShowCaseBtn img {
   object-fit: cover;
   width: 100%;
 }
