@@ -23,7 +23,7 @@ function ShowcaseElement(props) {
 				{isBtn
 					? (
 						<div className="showcaseBtn">
-							<h1>BRIZUR &lsquo; emporte</h1>
+							<h1>BRIZUR s&lsquo;emporte</h1>
 							<h3>De 12H à 18H</h3>
 							<a href=" ">
 								<h2>VOIR</h2>

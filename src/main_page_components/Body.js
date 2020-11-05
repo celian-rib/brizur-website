@@ -27,8 +27,9 @@ function Body(props) {
 				screenWidth < 900
 					? (
 						<div className="smallScreenShowCaseBtn">
+							<img src={assets.Cooking4} alt="gateau" />
 							<div className="showcaseBtn">
-								<h1>BRIZUR s`&quot;`emporte</h1>
+								<h1>BRIZUR s&lsquo;emporte</h1>
 								<h3>De 12H à 18H</h3>
 								<a href=" ">
 									<h2>VOIR</h2>

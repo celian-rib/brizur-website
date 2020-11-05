@@ -12,7 +12,7 @@ function Header() {
 				<img src={assets.Plate7} alt="background" className="BackgroundImage" />
 				<img src={assets.BrizureLogo} alt="background" className="Logo" />
 				<h1 id="BizurTitle">BRIZUR</h1>
-				<h6 id="BizurSubTitle">RESTAURANT DE DESSERTS</h6>
+				<h6 id="BizurSubTitle">VÉGÉTAL ET SUCRÉ</h6>
 				<a href="#showcase">
 					<h2>
 						NOS PLATS

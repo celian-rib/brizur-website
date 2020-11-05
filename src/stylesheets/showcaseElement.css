@@ -60,13 +60,20 @@
 }
 
 .smallScreenShowCaseBtn {
+  margin-top: 15px;
+  margin-bottom: 20px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 300px;
   height: 120px;
-  background-color: rgb(119, 119, 119);
+  overflow: hidden;
+}
+
+.smallScreenShowCaseBtn img{
+  object-fit: cover;
+  width: 100%;
 }
 
 .smallScreenShowCaseBtn .showcaseBtn a {

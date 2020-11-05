@@ -2,6 +2,9 @@
   background-color: white;
   width: 100%;
   height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .bodyInfoBar {
@@ -80,8 +83,9 @@
   .showCase {
     padding-top: 20px;
     grid-template-columns: 130px 130px;
-    column-gap: auto;
-    height: 40vh;
+    column-gap: 40px;
+    min-height: 300px;
+    height: 35vh;
   }
 
   .bodyInfoBar {
