@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from 'react';
 import ShowCaseElement from './ShowcaseElement';
 import assets from '../others/asset_sources';
@@ -8,7 +7,7 @@ import '../stylesheets/Body.css';
 function ShowCaseContainer(props) {
 	const { screenWidth } = props;
 	return (
-		<div className="showCase">
+		<div className="showCaseContainer">
 			<ShowCaseElement screenWidth={screenWidth} src={assets.Plate1} />
 			<ShowCaseElement screenWidth={screenWidth} src={assets.Plate6} />
 			<ShowCaseElement screenWidth={screenWidth} src={assets.Plate4} />

@@ -1,4 +1,4 @@
-.showcaseContainer {
+.showCaseItem {
   position: relative;
   width: 100%;
   height: 100%;
@@ -83,15 +83,3 @@
   margin-top: 5px;
 }
 
-/* @media (max-width: 900px) {
-  .showCaseImg,
-  .showCaseBtn {
-    width: 130px;
-    height: 130px;
-  }
-
-  .showcaseContainer {
-    width: 130px;
-    height: 130px;
-  }
-} */

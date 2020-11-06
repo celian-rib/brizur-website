@@ -1,4 +1,4 @@
-.showCase {
+.showCaseContainer {
     position: relative;
 
     width: 100%;
@@ -16,12 +16,12 @@
   }
 
 @media (max-width: 900px) {
-    .showCase{
+    .showCaseContainer {
         height: 60vh;
         grid-template-columns: 130px 130px;
         grid-template-rows: 130px 130px 130px;
     }
-    .btn{
+    .showCaseBtnContainer {
         grid-column: auto/span 2;
         grid-row: 3;
         position: relative;

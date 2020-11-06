@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from 'react';
 import '../stylesheets/showcaseElement.css';
 import Fade from 'react-reveal/Fade';
@@ -16,7 +15,7 @@ function ShowcaseElement(props) {
 	}
 	return (
 		<Fade left>
-			<div className={(screenWidth < 900 && isBtn)?"btn":"showcaseContainer"}>
+			<div className={(screenWidth < 900 && isBtn) ? 'showCaseBtnContainer' : 'showCaseItem'}>
 				<img src={src} alt="gateau" className="showCaseImg" />
 				{isBtn
 					? (
