@@ -9,7 +9,9 @@ function Header() {
 	return (
 		<div className="Header">
 			<div className="Title">
-				<img src={assets.Plate7} alt="background" className="BackgroundImage" />
+				<div className="BackgroundImageContainer">
+					<img src={assets.Plate7} alt="background" className="BackgroundImage" />
+				</div>
 				<img src={assets.BrizureLogo} alt="background" className="Logo" />
 				<h1 id="BizurTitle">BRIZUR</h1>
 				<h6 id="BizurSubTitle">VÉGÉTAL ET SUCRÉ</h6>
