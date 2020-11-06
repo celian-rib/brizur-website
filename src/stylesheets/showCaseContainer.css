@@ -1,0 +1,31 @@
+.showCase {
+    position: relative;
+
+    width: 100%;
+    height: 90vh;
+    min-height: 530px;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    grid-template-columns: 220px 220px 220px;
+    grid-template-rows: 220px 220px;
+    column-gap: 7%;
+    grid-row-gap: 10%;
+  }
+
+@media (max-width: 900px) {
+    .showCase{
+        height: 60vh;
+        grid-template-columns: 130px 130px;
+        grid-template-rows: 130px 130px 130px;
+    }
+    .btn{
+        grid-column: auto/span 2;
+        grid-row: 3;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+} 

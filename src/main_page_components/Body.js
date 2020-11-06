@@ -1,6 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import ShowCaseElement from '../components/ShowcaseElement';
+import ShowCaseContainer from '../components/ShowCaseContainer';
 import assets from '../others/asset_sources';
 import '../stylesheets/Body.css';
 
@@ -15,30 +15,8 @@ function Body(props) {
 				</Fade>
 			</div>
 
-			<div className="showCase">
-				<ShowCaseElement screenWidth={screenWidth} src={assets.Plate1} />
-				<ShowCaseElement screenWidth={screenWidth} src={assets.Plate6} />
-				<ShowCaseElement screenWidth={screenWidth} src={assets.Plate4} />
-				<ShowCaseElement screenWidth={screenWidth} src={assets.Cooking1} />
-				<ShowCaseElement screenWidth={screenWidth} src={assets.Cooking4} isBtn />
-				<ShowCaseElement screenWidth={screenWidth} src={assets.Cooking2} last />
-			</div>
-			{
-				screenWidth < 900
-					? (
-						<div className="smallScreenShowCaseBtn">
-							<img src={assets.Cooking4} alt="gateau" />
-							<div className="showcaseBtn">
-								<h1>BRIZUR s&lsquo;emporte</h1>
-								<h3>De 12H à 18H</h3>
-								<a href=" ">
-									<h2>VOIR</h2>
-								</a>
-							</div>
-						</div>
-					)
-					:					<div />
-			}
+			<ShowCaseContainer screenWidth={screenWidth} />
+
 			<div className="THENTODO" />
 		</div>
 	);

@@ -1,12 +1,12 @@
 .showcaseContainer {
   position: relative;
-  width: 220px;
-  height: 220px;
+  width: 100%;
+  height: 100%;
 }
 
 .showCaseImg {
-  width: 220px;
-  height: 220px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -46,7 +46,8 @@
   border-width: 2px;
   border-style: solid;
   border-color: white;
-  margin-top: 15%;
+  
+  margin-top: 10px;
   transition: 0.5s;
 }
 
@@ -82,7 +83,7 @@
   margin-top: 5px;
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .showCaseImg,
   .showCaseBtn {
     width: 130px;
@@ -93,4 +94,4 @@
     width: 130px;
     height: 130px;
   }
-}
+} */
