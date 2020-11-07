@@ -1,4 +1,4 @@
-.vente-header {
+.vente-banner {
 	width: 100%;
 	height: 80px;
 	background-color: violet;
@@ -9,4 +9,22 @@
 .vente-logo {
 	height: 80%;
 	width: auto;
+}
+
+.vente-header{
+	position: relative;
+	width: 100%;
+	height: 35vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.vente-header::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.4);
 }
