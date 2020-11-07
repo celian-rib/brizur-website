@@ -15,9 +15,9 @@ function Header() {
 				<img src={assets.BrizureLogo} alt="background" className="Logo" />
 				<h1 id="BizurTitle">BRIZUR</h1>
 				<h6 id="BizurSubTitle">VÉGÉTAL ET SUCRÉ</h6>
-				<a href="#showcase">
+				<a href=" ">
 					<h2>
-						NOS PLATS
+						RÉSERVER UNE TABLE
 					</h2>
 				</a>
 			</div>
@@ -29,12 +29,13 @@ function Header() {
 						<h4>
 							Entrez dans l’univers de notre restaurant bistronomique
 							qui casse les codes pour vous délivrer une expérience inédite. <br />
-							Notre mission, faire rentrer les desserts dans une nouvelle dimension.
+							Notre mission, faire rentrer les desserts dans une nouvelle dimension. <br />
 							Nos chefs emmènent la pâtisserie au sommet de son art,
-							dans un défilé de textures et d’associations déclinées en salé pour les entrées et les plats.
-							Nos desserts restent sucrés et triomphants de gourmandise. Les maîtres-mots :
+							dans un défilé de textures et d’associations déclinées en salé pour les entrées et les plats. <br />
+							Nos desserts restent sucrés et triomphants de gourmandise. <br />
+							Les maîtres-mots :
 							déstructuré, pour le dressage de nos plats, et végétal pour notre menu se basant
-							sur les fruits, légumes et plantes. Chez BRIZUR, le dessert est un moyen d’expression sans limite !
+							sur les fruits, légumes et plantes. Chez nous, le dessert est un moyen d’expression sans limite !
 						</h4>
 					</Fade>
 				</div>

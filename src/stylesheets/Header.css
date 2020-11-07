@@ -70,7 +70,7 @@
 	border-width: 2px;
 	border-color: white;
 	border-style: solid;
-	width: 100px;
+	width: 145px;
 	height: 30px;
 	display: flex;
 	justify-content: center;
@@ -84,7 +84,7 @@
 }
 
 .Title a h2 {
-	font-size: 1em;
+	font-size: 0.8em;
 	color: white;
 	text-decoration: none;
 	text-align: center;
@@ -127,6 +127,7 @@
 	width: 80%;
 	padding: 10px;
 	color: rgb(129, 129, 129);
+	text-align: justify;
 }
 
 .HeaderArrow {
