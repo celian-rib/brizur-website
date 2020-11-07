@@ -17,7 +17,10 @@ function Body(props) {
 
 			<ShowCaseContainer screenWidth={screenWidth} />
 
-			<div className="THENTODO" />
+			<div className="bodyInfoBar">
+				<img style={{ transform: `translateY(${scrollOffset * -0.2 + 100}px)` }} className="bodyInfoBar-image" src={assets.Plate1} alt="gateau" />
+			</div>
+
 		</div>
 	);
 }

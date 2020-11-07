@@ -21,7 +21,6 @@ function ShowcaseElement(props) {
 					? (
 						<div className="showcaseBtn">
 							<h1>BRIZUR s&lsquo;emporte</h1>
-							<h3>De 12H à 18H</h3>
 							<a href=" ">
 								<h2>VOIR</h2>
 							</a>

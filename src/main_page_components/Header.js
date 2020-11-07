@@ -23,10 +23,19 @@ function Header() {
 			</div>
 			<div className="info">
 				<div className="HeaderInfo">
-					<Fade duration={2000} right cascade>
-						<h1>Veniam eu voluptate aute proident reprehenderit est est.</h1>
+					<Fade duration={2000} right>
+						<h1>Quand la pâtisserie et le végétal s&lsquo;unissent pour créer un repas</h1>
 						<div className="separator" />
-						<h4>Eiusmod consectetur cupidatat sit occaecat ait incididunt. Labore commodo excepteur reprehense non tempor irure proident pariatur laboris laborum aute. Laborum nostrud dolore sit duis consequat anim irure ipsum sint ut eiusmod magna. Velit nulla officia officia dolor eu veniam sint ipsum nisi.</h4>
+						<h4>
+							Entrez dans l’univers de notre restaurant bistronomique
+							qui casse les codes pour vous délivrer une expérience inédite. <br />
+							Notre mission, faire rentrer les desserts dans une nouvelle dimension.
+							Nos chefs emmènent la pâtisserie au sommet de son art,
+							dans un défilé de textures et d’associations déclinées en salé pour les entrées et les plats.
+							Nos desserts restent sucrés et triomphants de gourmandise. Les maîtres-mots :
+							déstructuré, pour le dressage de nos plats, et végétal pour notre menu se basant
+							sur les fruits, légumes et plantes. Chez BRIZUR, le dessert est un moyen d’expression sans limite !
+						</h4>
 					</Fade>
 				</div>
 				<div className="HeaderArrow">
