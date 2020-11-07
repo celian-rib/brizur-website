@@ -2,11 +2,65 @@
 	width: 100%;
 	height: 15vh;
 	display: flex;
-	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.social {
+	width: 70%;
+	max-width: 400px;
+	height: 70%;
+	display: flex;
+	justify-content: space-around;
 	align-items: center;
 }
 
-.footerInfo {
+.social a {
+	font-size: 2em;
+	transition: 0.2s;
+}
+
+.social a:hover {
+	font-size: 2.5em;
+}
+
+.social a h4 {
+	font-size: 1em;
+}
+
+.fa {
+	color: rgb(155, 155, 155);
+	width: 60px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.legal-infos {
+	width: 100%;
+	max-width: 400px;
+	height: 30%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#license {
+	display: flex;
+	width: 170px;
+	align-items: center;
+	justify-content: space-around;
+	color: grey;
+	text-decoration: none;
+	font-weight: 200;
+}
+
+#mentions-legales{
+	color: grey;
+	text-decoration: none;
+	font-weight: 200;
+}
+
+/* .footerInfo {
 	width: 95%;
 	height: 80%;
 	border-width: 2px;
@@ -39,4 +93,4 @@
 		text-align: center;
 		font-size: 0.9em;
 	}
-}
+} */
