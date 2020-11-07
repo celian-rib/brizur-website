@@ -13,14 +13,6 @@ function Footer() {
 				<a id="license" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">©2020 <h5>Riboulet Célian</h5></a>
 				<a id="mentions-legales" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Mentions légales</a>
 			</div>
-			{/* <div className="footerInfo">
-				<p>Made by Riboulet Célian</p>
-				<a id="licenceImg" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
-					<img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
-				</a>
-				<p>This work is licensed under a :
-				</p>
-			</div> */}
 		</div>
 	);
 }
