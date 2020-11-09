@@ -1,18 +1,10 @@
-import { React, useState, useEffect } from 'react';
+import { React } from 'react';
 import Fade from 'react-reveal/Fade';
 import '../stylesheets/slideImageText.css';
 
 function SlideImageText(props) {
 
-	const { text, image } = props;
-
-	const [offset, setOffset] = useState(0);
-
-	useEffect(() => {
-		window.onscroll = () => {
-			setOffset(window.pageYOffset);
-		};
-	}, []);
+	const { text, image, offset } = props;
 
 	return (
 		<div className="slideImageContainer">
