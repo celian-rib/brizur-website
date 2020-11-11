@@ -1,8 +1,8 @@
 import React from 'react';
 import '../stylesheets/DownArrow.css';
 import '../stylesheets/Header.css';
-
 import Fade from 'react-reveal/Fade';
+import Carousel from '../components/HeaderInfoCarousel';
 import assets from '../others/asset_sources';
 
 function Header() {
@@ -26,7 +26,8 @@ function Header() {
 					<Fade duration={2000} right>
 						<h1>Quand la pâtisserie et le végétal s&lsquo;unissent pour créer un repas</h1>
 						<div className="separator" />
-						<h4>
+						<Carousel />
+						{/* <h4>
 							Entrez dans l’univers de notre restaurant bistronomique
 							qui casse les codes pour vous délivrer une expérience inédite. <br />
 							Notre mission, faire rentrer les desserts dans une nouvelle dimension. <br />
@@ -36,7 +37,7 @@ function Header() {
 							Les maîtres-mots :
 							déstructuré, pour le dressage de nos plats, et végétal pour notre menu se basant
 							sur les fruits, légumes et plantes. Chez nous, le dessert est un moyen d’expression sans limite !
-						</h4>
+						</h4> */}
 					</Fade>
 				</div>
 				<div className="HeaderArrow">
