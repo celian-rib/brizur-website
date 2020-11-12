@@ -66,7 +66,6 @@ function App() {
 function Home() {
 	const { width } = useWindowDimensions();
 
-	const [offset, setOffset] = useState(0);
 	return (
 		<div className="App">
 			<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet" />
@@ -74,7 +73,7 @@ function Home() {
 			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet" />
 	
 			<Header />
-			<Body scrollOffset={offset} screenWidth={width} />
+			<Body screenWidth={width} />
 			<Footer />
 			
 		</div>
