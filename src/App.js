@@ -6,6 +6,13 @@ import Carousel from './components/HeaderInfoCarousel';
 
 
 import { React, useState, useEffect } from 'react';
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Link
+  } from "react-router-dom";
+
 import './App.css';
 import ReactModal from 'react-modal';
 import Header from './main_page_components/Header';
@@ -38,40 +45,50 @@ function useWindowDimensions() {
 }
 
 function App() {
+	return (
+		<Router>
+			<div>
+				{/* A <Switch> looks through its children <Route>s and
+					renders the first one that matches the current URL. */}
+				<Switch>
+					<Route path="/reservation">
+						<Shop />
+					</Route>
+					<Route path="/">
+						<Home />
+					</Route>
+				</Switch>
+			</div>
+		</Router>
+	);
+}
 
+function Home() {
 	const { width } = useWindowDimensions();
 
 	const [offset, setOffset] = useState(0);
-
-	// const [modalOpen, setModalOpen] = useState(true);
-
-	// const customStyles = {
-
-	// 	content: {
-	// 		top: '50%',
-	// 		left: '50%',
-	// 		right: 'auto',
-	// 		bottom: 'auto',
-	// 		marginRight: '-50%',
-	// 		transform: 'translate(-50%, -50%)'
-	// 	}
-	// };
-
-	
-
 	return (
 		<div className="App">
-			
 			<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet" />
 			<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet" />
 			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet" />
-
-			{/*<Vente />*/}
-
+	
 			<Header />
 			<Body scrollOffset={offset} screenWidth={width} />
 			<Footer />
 			
+		</div>
+	);
+}
+
+function Shop() {
+	return (
+		<div className="App">
+			<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet" />
+			<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet" />
+			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet" />
+	
+			<Vente></Vente>
 		</div>
 	);
 }
