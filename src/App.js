@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-
+import Carousel from './components/HeaderInfoCarousel';
 
 
 
@@ -71,6 +71,7 @@ function App() {
 			<Header />
 			<Body scrollOffset={offset} screenWidth={width} />
 			<Footer />
+			
 		</div>
 	);
 }

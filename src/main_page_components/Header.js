@@ -23,11 +23,12 @@ function Header() {
 			</div>
 			<div className="info">
 				<div className="HeaderInfo">
-					<Fade duration={2000} right>
+					<Fade duration={2000} left>
 						<h1>Quand la pâtisserie et le végétal s&lsquo;unissent pour créer un repas</h1>
 						<div className="separator" />
-						<Carousel />
-						{/* <h4>
+					</Fade>
+					<Carousel />
+					{/* <h4>
 							Entrez dans l’univers de notre restaurant bistronomique
 							qui casse les codes pour vous délivrer une expérience inédite. <br />
 							Notre mission, faire rentrer les desserts dans une nouvelle dimension. <br />
@@ -38,7 +39,6 @@ function Header() {
 							déstructuré, pour le dressage de nos plats, et végétal pour notre menu se basant
 							sur les fruits, légumes et plantes. Chez nous, le dessert est un moyen d’expression sans limite !
 						</h4> */}
-					</Fade>
 				</div>
 				<div className="HeaderArrow">
 					<div className="chevron" />

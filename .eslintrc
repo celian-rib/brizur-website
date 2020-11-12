@@ -14,8 +14,8 @@
 		"no-tabs": 0,
 		"max-len": 0,
 		"react/no-array-index-key": 0,
-		"react/jsx-indent": [2, "tab"],
-		"react/jsx-indent-props": [2, "tab"],
+		"react/jsx-indent": ["warn", "tab"],
+		"react/jsx-indent-props": ["warn", "tab"],
 		"react/jsx-one-expression-per-line": 0,
 		"no-use-before-define": "off",
 		"react/jsx-filename-extension": "off",
@@ -24,7 +24,7 @@
 		"padded-blocks": "off",
 		"arrow-body-style": "off",
 		"no-console": 0,
-		"react-hooks/exhaustive-deps": "warn"
+		"react-hooks/exhaustive-deps": "warn",
 	},
 	"globals": {
 		"fetch": false

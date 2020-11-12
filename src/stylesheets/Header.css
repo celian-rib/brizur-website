@@ -142,8 +142,13 @@
 
 @media (max-width: 900px) {
 
+	.Header {
+		height: fit-content;
+	}
+
 	.HeaderInfo {
 		flex-direction: column;
+		height: fit-content;
 	}
 
 	.HeaderInfo h1 {
@@ -181,6 +186,6 @@
 	}
 
 	.HeaderInfo {
-		height: 45vh;
+		padding-bottom: 0;
 	}
 }
