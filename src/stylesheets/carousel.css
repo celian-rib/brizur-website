@@ -1,9 +1,10 @@
 .header-carousel-container {
 	position: relative;
-	width: 50%;
-	max-width: 600px;
-	height: 150px;
-	background-color: white;
+	flex: 1;
+	max-width: 500px;
+	min-height: 100px;
+	min-width: 100px;
+	background-color: cyan;
 }
 
 .fade-blocker {
@@ -25,37 +26,9 @@
 	background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
-.text-container {
-	height: 150px;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	background-color: white;
-}
-
-.text-container h4 {
-	text-align: left;
-	color: grey;
-}
-
 @media (max-width: 900px) {
 
 	.fade-blocker-left {
 		display: block;
-	}
-
-	.header-carousel-container {
-		height: fit-content;
-		width: 90%;
-	}
-
-	.text-container {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-
-	.text-container h4 {
-		font-size: 0.8em;
-		text-align: center;
 	}
 }

@@ -1,4 +1,6 @@
 import _BrizureLogo from '../media/BrizureLogo.png';
+import _Menu from '../media/menu.jpg';
+
 import _Plate1 from '../media/foodAssets/plate1-min.png';
 import _Plate2 from '../media/foodAssets/plate2-min.png';
 import _Plate3 from '../media/foodAssets/plate3-min.png';
@@ -18,6 +20,7 @@ import _Cooking6 from '../media/foodAssets/cooking6-min.jpg';
 
 const assets = {
 	BrizureLogo: _BrizureLogo,
+	Menu: _Menu,
 
 	Plate1: _Plate1,
 	Plate2: _Plate2,
