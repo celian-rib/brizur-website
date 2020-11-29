@@ -10,8 +10,7 @@
 	flex-direction: column;
 }
 
-.slideImageContainer h2,
-.slideImageContainer h1 {
+.slideImageContainer h2 {
 	width: 80%;
 	max-width: 700px;
 	z-index: 100;
@@ -22,8 +21,7 @@
 	font-family: "Nunito Sans", sans-serif;
 	text-align: justify;
 }
-
-.slideImageContainer div {
+/* .slideImageContainer div {
 	margin-top: -20px;
 	z-index: 100;
 	width: 100%;
@@ -32,28 +30,7 @@
 	justify-content: space-around;
 	flex-direction: column;
 	color: white;
-}
-
-.slideImageContainer h1 {
-	font-size: 3em;
-	font-weight: 500;
-	font-family: "Marcellus", serif;
-}
-
-.slideImageContainer h3 {
-	font-size: 1.5em;
-	margin-top: 5px;
-}
-
-.slideImageContainer h4 {
-	margin-top: 10px;
-}
-
-.slideImageContainer h6 {
-	font-size: 0.8em;
-	font-weight: 100;
-	text-align: center;
-}
+} */
 
 .slideImageContainer-image {
 	margin-top: 20px;

@@ -21,7 +21,7 @@ function Body(props) {
 
 			<ShowCaseContainer screenWidth={screenWidth} />
 
-			<SlideImageText moreInfo offset={offset} image={assets.Plate3} text="Du mercredi au dimanche" />
+			<SlideImageText moreInfo offset={offset} image={assets.Plate3} />
 		</div>
 	);
 }
