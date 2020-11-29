@@ -17,7 +17,7 @@ function Body(props) {
 
 	return (
 		<div className="Body">
-			<SlideImageText offset={offset} image={assets.Plate2} text="BRIZUR est un projet de création de restaurant de quatre étudiants. Nous sommes sommes à l’école de gastronomie française Ferrandi à Bordeaux et nous nommons Adrien, Coline, Léa et Mona. Notre projet est pour l’instant fictif mais pourrait devenir réalité ! Nous croisons les doigts pour être sélectionnés et être appliqués au restaurant de Ferrandi en janvier. Nous espérons vous voir bientôt !" />
+			<SlideImageText offset={offset} image={assets.Plate2} text="BRIZUR est un projet de création de restaurant de quatre étudiants. Nous sommes à l’école de gastronomie française Ferrandi à Bordeaux et nous nommons Adrien, Coline, Léa et Mona. Notre projet est pour l’instant fictif mais pourrait devenir réalité ! Nous croisons les doigts pour être sélectionnés et être appliqués au restaurant de Ferrandi en janvier. Nous espérons vous voir bientôt !" />
 
 			<ShowCaseContainer screenWidth={screenWidth} />
 

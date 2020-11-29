@@ -72,10 +72,6 @@
 
 @media (max-width: 900px) {
 
-	.slideImageContainer {
-		flex-direction: column;
-	}
-
 	.slideImageContainer h2 {
 		width: 80%;
 		font-size: 1em;
