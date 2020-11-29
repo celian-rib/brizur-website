@@ -11,27 +11,27 @@
 }
 
 .slideImageContainer h2,
-.slideImageContainer h1,
-.slideImageContainer h3 {
+.slideImageContainer h1 {
 	width: 80%;
 	max-width: 700px;
 	z-index: 100;
 	font-size: 1.3em;
-	padding: 20px;
+	padding: 10px;
 	color: white;
 	font-weight: 100;
 	font-family: "Nunito Sans", sans-serif;
-	text-align: center;
+	text-align: justify;
 }
 
 .slideImageContainer div {
+	margin-top: -20px;
 	z-index: 100;
-	background-color: rgba(0, 0, 0, 0.45);
 	width: 100%;
-	height: 70%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
+	flex-direction: column;
+	color: white;
 }
 
 .slideImageContainer h1 {
@@ -42,6 +42,17 @@
 
 .slideImageContainer h3 {
 	font-size: 1.5em;
+	margin-top: 5px;
+}
+
+.slideImageContainer h4 {
+	margin-top: 10px;
+}
+
+.slideImageContainer h6 {
+	font-size: 0.8em;
+	font-weight: 100;
+	text-align: center;
 }
 
 .slideImageContainer-image {
@@ -56,7 +67,7 @@
 	width: 101%;
 	height: 101%;
 	position: absolute;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 900px) {
@@ -67,5 +78,6 @@
 
 	.slideImageContainer h2 {
 		width: 80%;
+		font-size: 1em;
 	}
 }
