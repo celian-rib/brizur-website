@@ -51,7 +51,8 @@
 	animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 
-.timetableContainer h3 {
+.timetableContainer a:last-child {
+	animation: none;
 	font-size: 1em;
 	margin: 0;
 	padding: 0;
@@ -107,5 +108,9 @@
 
 	.timetableContainer:last-child a {
 		font-size: 1.3em;
+	}
+
+	.timetableContainer a:last-child {
+		font-size: 0.7em;
 	}
 }
