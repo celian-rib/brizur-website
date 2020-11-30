@@ -24,8 +24,8 @@ function ShowcaseElement(props) {
 					? (
 						<div className="showcaseBtn">
 							<h1>BRIZUR s&lsquo;emporte</h1>
-							{/* <Link to="/reservation"> */}
-							<Link to="/">
+							{/* <Link to="/"> */}
+							<Link to="/reservation">
 								<h2>VOIR</h2>
 							</Link>
 						</div>

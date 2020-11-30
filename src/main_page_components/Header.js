@@ -36,7 +36,7 @@ function Header() {
 						Nos desserts restent sucrés et triomphants de gourmandise. */}
 						Les maîtres-mots :
 						déstructuré, pour le dressage de nos plats, et végétal pour notre menu se basant
-						sur les fruits, légumes et plantes. Chez nous, le dessert est un moyen d’expression sans limite !
+						sur les fruits, légumes et plantes. Chez nous, le dessert est un moyen d’expression sans limite!
 					</p>
 				</div>
 				<div className="HeaderArrow">

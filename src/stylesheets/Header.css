@@ -114,10 +114,11 @@
 
 .HeaderInfo p {
 	color: black;
-	font-weight: 400;
+	font-weight: 500;
+	margin-right: 5px;
 	margin-left: 20px;
 	max-width: 500px;
-	width: 90%;
+	width: calc(50% - 25px);
 	height: 85%;
 	text-align: justify;
 	display: flex;
@@ -135,6 +136,7 @@
 .HeaderInfo h1 {
 	max-width: 500px;
 	width: 50%;
+	margin-right: 20px;
 	text-align: center;
 	color: rgb(88, 88, 88);
 }
@@ -160,16 +162,20 @@
 	}
 
 	.HeaderInfo h1 {
-		width: 90%;
-		height: 50%;
+		width: 50%;
+		height: 45%;
 		font-size: 1.5em;
 		display: flex;
 		align-items: center;
+		margin-right: 0;
 	}
 
 	.HeaderInfo p {
+		width: 90%;
+		margin-right: 0;
 		margin-left: 0;
 		font-size: 0.9em;
+		height: fit-content;
 	}
 
 	.separator {
