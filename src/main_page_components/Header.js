@@ -28,8 +28,8 @@ function Header() {
 						<div className="separator" />
 					</Fade>
 					<p>
-						Entrez dans l’univers de notre restaurant bistronomique
-						qui casse les codes pour vous délivrer une expérience inédite.
+						{/* Entrez dans l’univers de notre restaurant bistronomique
+						qui casse les codes pour vous délivrer une expérience inédite. */}
 						Notre mission, faire rentrer les desserts dans une nouvelle dimension.
 						{/* Nos chefs emmènent la pâtisserie au sommet de son art,
 						dans un défilé de textures et d’associations déclinées en salé pour les entrées et les plats.

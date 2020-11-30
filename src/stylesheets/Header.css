@@ -169,9 +169,8 @@
 
 	.HeaderInfo p {
 		margin-left: 0;
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
-
 
 	.separator {
 		width: 50%;
@@ -187,11 +186,26 @@
 	}
 
 	.Title a {
-		display: none;
+		margin-top: 10px;
+		height: 20px;
 	}
 
 	.HeaderInfo h1 {
 		font-size: 1em;
 		height: 20%;
+	}
+
+	.Logo {
+		width: 110px;
+		height: auto;
+		filter: invert(1);
+	}
+
+	#BizurTitle {
+		font-size: 2em;
+	}
+
+	#BizurSubTitle {
+		font-size: 1em;
 	}
 }

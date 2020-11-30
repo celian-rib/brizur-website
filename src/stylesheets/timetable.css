@@ -103,7 +103,8 @@
 		content: "";
 		width: 90%;
 		height: 2px;
-		background-color: white;
+		background-color: rgb(168, 168, 168);
+		max-width: 350px;
 	}
 
 	.timetableContainer:last-child a {
