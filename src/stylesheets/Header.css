@@ -147,7 +147,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 }
 
 @media (max-width: 900px) {
@@ -162,7 +162,8 @@
 	}
 
 	.HeaderInfo h1 {
-		width: 50%;
+		max-width: 400px;
+		width: 80%;
 		height: 45%;
 		font-size: 1.5em;
 		display: flex;

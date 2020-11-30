@@ -23,23 +23,17 @@ function Header() {
 			</div>
 			<div className="info">
 				<div className="HeaderInfo">
-					<Fade duration={2000} left cascade>
-						<h1><b>Quand </b><b>la </b><b>pâtisserie </b><b>et </b><b>le </b><b>végétal </b><b>s&lsquo;unissent </b><b>pour </b> <b>créer </b> <b>un </b> <b>repas</b></h1>
+					<Fade duration={2000} left>
+						<h1>Quand la pâtisserie et le végétal s&lsquo;unissent pour créer un repas</h1>
 						<div className="separator" />
 					</Fade>
-					<Fade duration={2000} right>
-						<p>
-							{/* Entrez dans l’univers de notre restaurant bistronomique
-							qui casse les codes pour vous délivrer une expérience inédite. */}
-							Notre mission, faire rentrer les desserts dans une nouvelle dimension.
-							{/* Nos chefs emmènent la pâtisserie au sommet de son art,
-							dans un défilé de textures et d’associations déclinées en salé pour les entrées et les plats.
-							Nos desserts restent sucrés et triomphants de gourmandise. */}
-							Les maîtres-mots :
-							déstructuré, pour le dressage de nos plats, et végétal pour notre menu se basant
-							sur les fruits, légumes et plantes. Chez nous, le dessert est un moyen d’expression sans limite!
-						</p>
-					</Fade>
+					<p>
+						{/* Entrez dans l’univers de notre restaurant bistronomique
+						qui casse les codes pour vous délivrer une expérience inédite. */}
+						Notre mission, faire rentrer les desserts dans une nouvelle dimension. Les maîtres-mots :
+						déstructuré, pour le dressage de nos plats, et végétal pour notre menu se basant
+						sur les fruits, légumes et plantes. Chez nous, le dessert est un moyen d’expression sans limite!
+					</p>
 				</div>
 				<div className="HeaderArrow">
 					<div className="chevron" />
