@@ -1,9 +1,10 @@
-/* eslint-disbale */
+/* eslint-disable */
 import { React, useState, useEffect } from 'react';
 import {
 	Link
 } from 'react-router-dom';
 import SlideImageText from './components/SlideImageText';
+import Menu from './vente_page_components/Menu';
 import './stylesheets/vente.css';
 import assets from './others/asset_sources';
 
@@ -23,9 +24,11 @@ function Vente() {
 				<img src={assets.BrizureLogo} alt="background" className="vente-logo" />
 				<h1>BRIZUR</h1>
 			</Link>
-			<SlideImageText offset={offset} image={assets.Plate4} text="Decouvrez nos plats" />
+			{/* <SlideImageText offset={offset} image={assets.Plate4} text="Brizur s’invite chez vous !" /> */}
 			<div className="vente-body">
-				<img src={assets.Menu} alt="Menu du restaurant" />
+				<h1>Brizur s'invite chez vous !</h1>
+				<Menu></Menu>
+				{/* <img src={assets.Menu} alt="Menu du restaurant" /> */}
 			</div>
 		</div>
 	);

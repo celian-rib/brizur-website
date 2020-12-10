@@ -1,0 +1,114 @@
+.Menu {
+	width: 90%;
+	height: 100vh;
+	margin-top: 20px;
+	/* border: 1px rgb(235, 36, 36) solid; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.priceContainer {
+	width: 90%;
+	justify-content: space-around;
+	display: flex;
+	height: fit-content;
+}
+
+.priceBox {
+	-webkit-box-shadow: 0 0 44px -4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 44px -4px rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
+	width: 40%;
+	height: 200px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.priceBox >h3 {
+	color: rgb(71, 71, 71);
+}
+
+.priceBox >h2 {
+	color: rgb(197, 153, 72);
+}
+
+.priceBox >h5 {
+	color: rgb(168, 168, 168);
+}
+
+.mainMenuContent {
+	margin-top: 20px;
+	background-color: white;
+	-webkit-box-shadow: 0 0 44px -4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 44px -4px rgba(0, 0, 0, 0.2);
+	width: 90%;
+	height: 350px;
+	display: flex;
+	padding: 20px;
+}
+
+.menuPart {
+	/* background-color: red; */
+	width: calc(100% / 3 - 10px);
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+}
+
+.menuPart h1 {
+	font-family: "Marcellus", serif;
+	font-weight: lighter;
+	color: rgb(197, 153, 72);
+}
+
+.menuPart h2 {
+	color: rgb(136, 136, 136);
+}
+
+.menuPart h3 {
+	height: 20%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+	font-size: 1em;
+	color: rgb(0, 0, 0);
+}
+
+@media (max-width: 720px) {
+
+	.mainMenuContent {
+		height: fit-content;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.menuPart {
+		margin-top: 10px;
+		width: 90%;
+	}
+
+	.menuPart h2 {
+		font-size: 1.2em;
+	}
+
+	.menuPart h3 {
+		font-size: 0.9em;
+	}
+
+	.priceContainer {
+		width: 95%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.priceBox {
+		width: 80%;
+	}
+}
