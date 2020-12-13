@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 import SlideImageText from './components/SlideImageText';
 import Menu from './vente_page_components/Menu';
+import Form from './vente_page_components/FormVente';
 import './stylesheets/vente.css';
 import assets from './others/asset_sources';
 
@@ -28,7 +29,7 @@ function Vente() {
 			<div className="vente-body">
 				<h1>Brizur s'invite chez vous !</h1>
 				<Menu></Menu>
-				{/* <img src={assets.Menu} alt="Menu du restaurant" /> */}
+				<Form></Form>
 			</div>
 		</div>
 	);

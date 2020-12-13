@@ -1,6 +1,6 @@
 .Menu {
 	width: 90%;
-	height: 100vh;
+	height: fit-content;
 	margin-top: 20px;
 	/* border: 1px rgb(235, 36, 36) solid; */
 	display: flex;
@@ -20,7 +20,7 @@
 	box-shadow: 0 0 44px -4px rgba(0, 0, 0, 0.2);
 	margin-top: 20px;
 	width: 40%;
-	height: 200px;
+	height: 150px;
 	background-color: white;
 	display: flex;
 	align-items: center;
@@ -30,6 +30,7 @@
 
 .priceBox >h3 {
 	color: rgb(71, 71, 71);
+	text-align: center;
 }
 
 .priceBox >h2 {
