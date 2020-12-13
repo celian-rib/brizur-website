@@ -14,6 +14,7 @@ function Vente() {
 	const [offset, setOffset] = useState(0);
 
 	useEffect(() => {
+		window.scrollTo(0, 0);
 		window.onscroll = () => {
 			setOffset(window.pageYOffset);
 		};
